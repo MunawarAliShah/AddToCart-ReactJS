@@ -8,12 +8,25 @@ nav {
   height: 60px;
 
 }
-.title-logo
+.title-logo 
 {
-  text-align: center;
-  font-size: 7rem;
-  color: rgba(65, 201, 31, 0.842);
+  /* position: absolute; */
+ text-align: center;
+ /* background-size: 400%; */
+  background: linear-gradient( 90deg, #ff0000 20%, #ffff00 30%, #ff00f3 40%, #0033ff 50%, #ff00c4 60%,#0033ff 70%);
+  font-size: 100px;
+  font-family: sans-serif;
+  letter-spacing: 45px;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
 }
+@keyframes animate{
+  0%{background-position: 0%;}
+  100%{background-position: 400%;}
+}
+
 
 .nav_box {
   width: 80%;

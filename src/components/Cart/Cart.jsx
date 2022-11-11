@@ -19,7 +19,6 @@ const Cart = ({cart, setCart, handleChange }) => {
   useEffect(() => {
     handlePrice();
   });
-
   return (
     <div className="Cart">
       <div className="main-cart-section">
