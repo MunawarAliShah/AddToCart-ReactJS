@@ -31,7 +31,7 @@ const Navbar = ({ setShow, size }) => {
 
           <h3
             style={{
-              marginTop: "auto",
+              marginTop: "10px",
               marginBottom: "auto",
               padding: "5px",
               float: "right",

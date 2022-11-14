@@ -77,10 +77,17 @@ header {
 .sale-deal{
   background-color: #ed4848;
   height: 80px;
-  padding-top: 1px;
+  padding-top: 3px;
   text-align: center;
   border-radius: 10px;
+  font-size: 50px;
+  animation: animated 1s linear infinite;
 }
+@keyframes animated{
+  0%{background-color: #ff0000;}
+  50%{background-color: #eeea0c;}
+  100%{background-color: #ff0000;}
+ }
 .main-cart-section p {
   font-style: normal;
   color: #048aff;
